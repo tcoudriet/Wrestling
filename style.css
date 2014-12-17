@@ -21,10 +21,10 @@ html
     
     font-family: Aldrich;
     color: #F1C40F;
-    font-size: 30px;
+    font-size: 3.2vh;
     text-shadow: 3px 6px 1px #000000;
     text-align: center;
-    line-height: 370%;
+    line-height: 300%;
     
     z-index: 2;
 }
@@ -43,7 +43,7 @@ html
     
     font-family: Aldrich;
     color: #F1C40F;
-    font-size: 16px;
+    font-size: 2vh;
     text-shadow: 3px 6px 1px #000000;
     text-align: center;
     line-height: 200%;
@@ -64,7 +64,7 @@ html
     
     font-family: Aldrich;
     color: #F1C40F;
-    font-size: 20px;
+    font-size: 2vh;
     text-shadow: 3px 6px 1px #000000;
     text-align: center;
     line-height: 150%;
