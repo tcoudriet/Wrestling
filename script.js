@@ -105,3 +105,8 @@ function display(window)
         document.getElementById('VideosWindow').style.display = "block";
     }
 }
+
+function swapVideo(nextVideo)
+{
+   
+}

@@ -28,7 +28,6 @@ html
     /* handle text in the element */
     font-family: Aldrich;
     color: #F1C40F;
-    text-shadow: 3px 6px 1px #000000;
     text-align: center;
     
     /* place the element on a layer */
@@ -54,7 +53,6 @@ html
     font-family: Aldrich;
     color: #F1C40F;
     font-size: 1.2vh;
-    text-shadow: 3px 6px 1px #000000;
     text-align: center;
     line-height: 200%;
     
@@ -180,26 +178,30 @@ html
     text-align: center;
     line-height: 150%;
 }
-#Thumbnails
+.Thumbnails
 {
     height: 10vh;
     width: 100%;
     
     
 }
-#Thumbnails img
+.Thumbnails img
 {
     border: 1px solid #F1C40F;
     height: 100%;
     width: 4vw;
 }
-#Previews
+.Thumbnails img:hover
+{
+    cursor: pointer;   
+}
+.Previews
 {
     padding: 10px;
     height: 50vh;
     width: 100%;
 }
-#Previews img
+.Previews img
 {
     border: 3px solid #F1C40F;
     height: 525px;
@@ -255,7 +257,6 @@ html
     text-align: center;  
     font-size: 2vh;
     font-family: Aldrich;
-    color:#ffaa56;
 }
 .Table tr, .Table td
 {
@@ -266,6 +267,10 @@ html
 {
     /* size the element */
     width: 25%;   
+}
+.Table tr, .Table td, .Table th
+{
+    border: 1px solid #3498db;  
 }
 
 
