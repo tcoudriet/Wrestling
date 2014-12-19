@@ -28,15 +28,13 @@ html
     /* handle text in the element */
     font-family: Aldrich;
     color: #F1C40F;
-    font-size: 3vh;
     text-shadow: 3px 6px 1px #000000;
     text-align: center;
-    line-height: 300%;
     
     /* place the element on a layer */
     z-index: 2;
 }
-#Upcoming
+#Spotlight
 {
     /* position the element */
     position: absolute;
@@ -55,7 +53,7 @@ html
     /* handle text in the element */
     font-family: Aldrich;
     color: #F1C40F;
-    font-size: 1.5vh;
+    font-size: 1.2vh;
     text-shadow: 3px 6px 1px #000000;
     text-align: center;
     line-height: 200%;
@@ -186,12 +184,14 @@ html
 {
     height: 10vh;
     width: 100%;
+    
+    
 }
 #Thumbnails img
 {
     border: 1px solid #F1C40F;
     height: 100%;
-    width: 100px;
+    width: 4vw;
 }
 #Previews
 {
