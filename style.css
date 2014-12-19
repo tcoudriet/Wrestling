@@ -28,7 +28,7 @@ html
     /* handle text in the element */
     font-family: Aldrich;
     color: #F1C40F;
-    font-size: 3.2vh;
+    font-size: 3vh;
     text-shadow: 3px 6px 1px #000000;
     text-align: center;
     line-height: 300%;
@@ -55,7 +55,7 @@ html
     /* handle text in the element */
     font-family: Aldrich;
     color: #F1C40F;
-    font-size: 2vh;
+    font-size: 1.5vh;
     text-shadow: 3px 6px 1px #000000;
     text-align: center;
     line-height: 200%;
