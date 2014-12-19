@@ -182,12 +182,28 @@ html
     text-align: center;
     line-height: 150%;
 }
-#PhotosWindow img
+#Thumbnails
 {
-    float: left;
-    padding: 35px;
-    height: 25vmin;
-    width: 32vmin;  
+    height: 10vh;
+    width: 100%;
+}
+#Thumbnails img
+{
+    border: 1px solid #F1C40F;
+    height: 100%;
+    width: 100px;
+}
+#Previews
+{
+    padding: 10px;
+    height: 50vh;
+    width: 100%;
+}
+#Previews img
+{
+    border: 3px solid #F1C40F;
+    height: 525px;
+    width: 700px;
 }
 
 /* Classes */
