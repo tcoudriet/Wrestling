@@ -182,7 +182,13 @@ html
     text-align: center;
     line-height: 150%;
 }
-
+#PhotosWindow img
+{
+    float: left;
+    padding: 35px;
+    height: 25vmin;
+    width: 32vmin;  
+}
 
 /* Classes */
 .Button
